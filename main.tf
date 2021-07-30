@@ -260,7 +260,7 @@ resource "aws_lb_listener_rule" "path_pattern" {
 resource "aws_instance" "DevOps-test" {
   
   ami = var.ami
-  count = var.count
+  count = 2
   subnet_id  = aws_subnet.public.*[0].id
   instance_type = "t2.micro"
   security_groups = aws_security_group.main.*.id
