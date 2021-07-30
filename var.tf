@@ -1,6 +1,6 @@
 variable region {}
-variable access_key {}
-variable secret_key {}
+#variable access_key {}
+#variable secret_key {}
 variable environment {}
 variable "name" {
   default     = "Default"
