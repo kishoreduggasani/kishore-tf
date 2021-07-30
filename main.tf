@@ -265,7 +265,7 @@ resource "aws_instance" "DevOps-test" {
   instance_type = "t2.micro"
   security_groups = aws_security_group.main.*.id
   key_name = "kishore"
-  #user_data     = "${file("env.sh")}"
+  user_data     = "${file("tomcat.sh")}"
   
   tags = {
       Name        = "Devops-Test"
