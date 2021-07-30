@@ -264,7 +264,7 @@ resource "aws_instance" "DevOps-test" {
   subnet_id  = aws_subnet.public.*[0].id
   instance_type = "t2.micro"
   security_groups = aws_security_group.main.*.id
-  key_name = "kishore"
+  key_name = "kishore-test"
   user_data     = "${file("tomcat.sh")}"
   
   tags = {
