@@ -1,7 +1,7 @@
 tag 		= "Test"
 ########################### VPC ################
-access_key = "AKIAQRHC4ESZHHKDIEQP"
-secret_key = "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"
+#access_key = "AKIAQRHC4ESZHHKDIEQP"
+#secret_key = "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"
 environment	= "Test"
 region = "us-east-1"
 name = "DevOpsTest"
@@ -57,4 +57,7 @@ http_tcp_listener_rule  = [
         path_pattern        = ["/*"]
     }
 ]
+
+#################ec2################
+ami = "ami-0747bdcabd34c712a"
 

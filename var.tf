@@ -133,7 +133,3 @@ variable "ami" {
   default     = "ami-15234"
 }
 
-variable "count" {
-  type        = string
-  default     = "2"
-}
