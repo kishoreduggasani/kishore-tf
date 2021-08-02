@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#update ubuntu
+##update ubuntu
 sudo apt update -y
 
 #install java
