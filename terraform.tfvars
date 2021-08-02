@@ -12,7 +12,7 @@ private_subnet_cidr_blocks = ["10.200.3.0/24", "10.200.4.0/24"]
 availability_zones = ["us-east-1a", "us-east-1b", "us-east-1c"]
 sec-grp_name = "Test-sg"
 
-##############ALB ####################
+##############ALB #####################
 
 create_lb = true
 alb_name = "Test-ALB"
