@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     encrypt = true
     bucket = "kishore-test-tf"
-    region = "us-east-2"
+    region = "us-east-1"
     key = "tf.tfstate"
   }
 }
