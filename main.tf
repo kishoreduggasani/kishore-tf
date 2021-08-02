@@ -1,4 +1,4 @@
-##################### VPC ###############
+##################### VPC ################
 
 resource "aws_vpc" "test" {
   cidr_block           = var.cidr_block
